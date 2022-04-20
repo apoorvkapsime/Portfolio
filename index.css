@@ -12,7 +12,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(12, 42, 25, 0.86);
+  /* background-color: rgba(12, 42, 25, 0.86); */
+  background-image: url("Images/back4.jpg");
   font-family: "Nanum Gothic", sans-serif;
 }
 .content {
@@ -50,12 +51,14 @@ body {
   width: 70%;
 }
 .profile {
-  height: 57%;
+  height: 63%;
   width: 16%;
   position: absolute;
-  top: 25%;
-  right: 5%;
-  filter: invert(100%);
+  top: 22%;
+  right: 7%;
+  border: 5px solid red;
+  border-radius: 50%;
+  /* filter: invert(100%); */
   /* border: 2px solid red; */
 }
 .links {
