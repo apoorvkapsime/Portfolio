@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --head: rgba(0, 0, 0, 0.84);
+  --mid: rgba(0, 0, 0, 0.97);
+}
+body {
+  height: 400vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(12, 42, 25, 0.86);
+  font-family: "Nanum Gothic", sans-serif;
+}
+.content {
+  /* border: 2px solid white; */
+  height: 250vh;
+  width: 70vw;
+  background-color: white;
+  position: relative;
+}
+.header {
+  /* border: 2px solid blue; */
+  height: 15%;
+  background-color: var(--head);
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 5%;
+  position: relative;
+}
+.name {
+  font-size: 2.5em;
+}
+.position {
+  color: red;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: 1.5rem;
+}
+/* .bio {
+} */
+.bio,
+.name,
+.position {
+  width: 70%;
+}
+.profile {
+  height: 57%;
+  width: 16%;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  filter: invert(100%);
+  /* border: 2px solid red; */
+}
+.links {
+  height: 10%;
+  background-color: var(--mid);
+  position: relative;
+}
+.icons {
+  display: grid;
+  /* grid-template-columns: repeat(2, auto); */
+  grid-template-columns: 45% 55%;
+  grid-template-rows: repeat(3, auto);
+  height: 52%;
+  width: 50%;
+  /* border: 2px solid red; */
+  box-sizing: border-box;
+  position: absolute;
+  left: 28%;
+  top: 18%;
+  padding: 1%;
+}
+.icons:nth-child(1),
+.icons:nth-child(2),
+.icons:nth-child(3) {
+  transform: scale(2.1);
+  filter: invert(100%);
+  margin: 2%;
+}
+.icons:nth-child(3),
+.icons:nth-child(4),
+.icons:nth-child(5) {
+  transform: scale(2.1);
+  filter: invert(100%);
+  margin: 2%;
+}
+.icons span {
+  font-size: 0.5rem;
+  text-transform: lowercase;
+  cursor: pointer;
+  padding: 2%;
+  position: relative;
+  bottom: 6%;
+  /* font-family: "Ubuntu", sans-serif; */
+  font-family: "Vazirmatn", sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+/* summary start here */
+
+.summary {
+  /* border: 2px solid blue; */
+  height: 75%;
+  position: relative;
+  overflow: hidden;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.title {
+  font-size: 2.5em;
+  font-weight: 200;
+  text-decoration: underline;
+  color: red;
+  text-transform: uppercase;
+  margin-bottom: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sub {
+  color: red;
+  font-weight: lighter;
+}
+.subject {
+  column-count: 2;
+}
+.sub {
+  margin-top: 2%;
+}
+.subject li {
+  list-style: disc;
+  margin-left: 8%;
+}
+.subject li::marker {
+  color: red;
+}
+.degree {
+  font-weight: bold;
+  font-size: 2em;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.university {
+  font-size: 1.1rem;
+}
+.left {
+  position: absolute;
+  left: 4%;
+  top: 2%;
+  width: 43%;
+}
+.left section {
+  margin-bottom: 6%;
+}
+li {
+  list-style: none;
+}
+.main {
+  font-size: 1.3rem;
+}
+
+.main ul li {
+  list-style: disc;
+  margin-left: 4%;
+  font-size: 0.9rem;
+}
+.main ul li::marker {
+  color: red;
+}
+section > ul > li {
+  margin-bottom: 4%;
+}
+.task li {
+  list-style: disc;
+  margin-left: 4%;
+}
+.task li::marker {
+  color: red;
+}
+.right {
+  position: absolute;
+  left: 50%;
+  top: 2%;
+}
+.skills span {
+  font-size: 1.2rem;
+  display: inline-block;
+  text-transform: none;
+  background-color: #565151;
+  border-radius: 6%;
+  margin: 0% 2% 2%;
+  cursor: default;
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.skills {
+  margin-left: -1.5%;
+  margin-bottom: 4%;
+}
+.lang {
+  column-count: 2;
+}
+
+.lang li span {
+  color: red;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+.hobby span {
+  border: 2px solid rgb(201, 197, 197);
+  display: inline-block;
+  padding: 8px;
+  border-radius: 7%;
+  margin-right: 5%;
+}
+.date {
+  font-style: italic;
+  color: red;
+  margin-top: 2%;
+  font-size: 0.85rem;
+}
