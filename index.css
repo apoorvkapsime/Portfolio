@@ -9,12 +9,15 @@
 }
 body {
   height: 400vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   /* background-color: rgba(12, 42, 25, 0.86); */
   background-image: url("Images/back4.jpg");
   font-family: "Nanum Gothic", sans-serif;
+}
+.resume {
+  display: flex;
+  height: 400vh;
+  align-items: center;
+  justify-content: center;
 }
 .content {
   /* border: 2px solid white; */
