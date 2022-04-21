@@ -61,8 +61,13 @@ body {
   right: 7%;
   border: 5px solid red;
   border-radius: 50%;
+  transform: scale(1);
+  transition: 1s;
   /* filter: invert(100%); */
   /* border: 2px solid red; */
+}
+.profile:hover {
+  transform: scale(1.1);
 }
 .links {
   height: 10%;
