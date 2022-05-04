@@ -8,7 +8,7 @@
   --mid: rgba(0, 0, 0, 0.97);
 }
 body {
-  height: 400vh;
+  height: 308vh;
   /* background-color: rgba(12, 42, 25, 0.86); */
   background-image: url("Images/back4.jpg");
   font-family: "Nanum Gothic", sans-serif;
@@ -21,7 +21,7 @@ body {
 }
 .content {
   /* border: 2px solid white; */
-  height: 250vh;
+  height: 295vh;
   width: 70vw;
   background-color: white;
   position: relative;
@@ -54,7 +54,7 @@ body {
   width: 70%;
 }
 .profile {
-  height: 63%;
+  height: 56%;
   width: 16%;
   position: absolute;
   top: 22%;
@@ -233,4 +233,14 @@ section > ul > li {
   color: red;
   margin-top: 2%;
   font-size: 0.85rem;
+}
+.heading {
+  width: 100%;
+  position: relative;
+}
+.letter {
+  font-size: 1.5rem;
+}
+.letter li {
+  margin: 5px;
 }
