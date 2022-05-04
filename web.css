@@ -15,12 +15,10 @@
   left: 22%;
 }
 .nav li {
-  color: white;
   font-weight: bold;
   display: inline-block;
   padding: 8px 72px;
   font-size: 2em;
-  cursor: pointer;
 }
 .nav li::after {
   content: "";
@@ -34,4 +32,15 @@
 }
 .nav li:hover::after {
   width: 100%;
+}
+
+.nav li a {
+  text-decoration: none;
+}
+
+.nav li a:active {
+  color: red;
+}
+.activen {
+  color: black;
 }
