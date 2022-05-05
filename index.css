@@ -244,3 +244,16 @@ section > ul > li {
 .letter li {
   margin: 5px;
 }
+.letter li::after {
+  content: "";
+  background: rgb(246, 4, 4);
+  height: 3px;
+  width: 0%;
+  display: block;
+  margin: auto;
+  margin-top: 1px;
+  transition: 1s;
+}
+.letter li:hover::after {
+  width: 100%;
+}
